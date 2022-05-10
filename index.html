@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" href="Bandeira_do_Brasil_PNG.png" type="image/png">
+    <title>Show do Megadeth</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1 class="title"> <img class="image" src="./megadeth_logo.jpg">BEM VINDOS A ÁREA DE COMPRA DE INGRESSOS.
+            </h1>
+            <h2 id="d"></h2>
+
+            <audio id="music" class="audio" autoplay loop>
+                <source src="megadeth_holy_wars_mp3.mp3" type="audio/mpeg">
+                <source src="megadeth_holy_wars_ogg.ogg" type="audio/ogg">
+                <source src="megadeth_rust_in_ peace_polari_mp3.mp3" type="audio/mpeg">
+                <source src="megadeth_rust_in_ peace_polari_ogg.ogg" type="audio/ogg">
+                <source src="tornado_of_soul_mp3.mp3" type="audio/mpeg">
+                <source src="tornado_of_soul_ogg.ogg" type="audio/ogg">
+
+            </audio>
+
+
+            <div class="controle">
+
+                <img class="botao" onclick="diminuir_velocidade()" src="./botão diminuir volume.png">
+                <img class="botao" onclick="aumentar_velocidade()" src="./botão aumentar volume.png">
+                <img class="botao" onclick="retornar()" src="./botão retornar 15 segundos.png">
+                <img class="botao" onclick="avancar()" src="./botão avançar 15 segundos.png">
+                <img class="botao" onclick="play()" src="./botão de play.png">
+                <img class="botao" onclick="pause()" src="./botão de stop.png">
+                <br><br><br><br><br><br><br><br>
+
+                <p>Ouça aqui através desse player umas das músicas fodas que serão tocadas no show!</p>
+
+            </div>
+
+
+
+        </header>
+
+        <section>
+
+            <h3 overflow: SCROLL; onclick="clickH3('Então aproveite o show, bom é quando faz mal!!!')">AVISO: Shows do
+                Megadeth possuem altos níveis de ingestão de álcool, substâncias alucinógenas, rodas punk e música alta,
+                deseja mesmo prosseguir nessa aventura? Caso a resposta seja sim, <b><a>clique aqui</a></b>. Se
+                desistir, irá perder
+                uns dos melhores shows da sua vida.<br>위험해, 물러나. 위험
+                영역.</h3> <br><br> <img class="image2" src="./proibidos_menores.jpeg"><br><br><br>
+
+
+            <div class="venda">
+
+                <h4>BILHETERIA</h4>
+                <form name="f_idade">
+                    <input id="idade" name="idade" type="number" placeholder="Idade">
+                    <button onclick="return calcular()">Comprar ingresso</button>
+                </form>
+
+            </div>
+
+
+
+        </section>
+
+        <script src="index.js"></script>
+
+</body>
+
+</html>
