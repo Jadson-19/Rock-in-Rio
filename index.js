@@ -60,14 +60,11 @@ let resultado = document.getElementById("resultados");
 
 function calcular(){
 
-    let valor1 = inputNome.value;
-    let valor2 = inputIdade.value;
-    
-    resultado.innerHTML = valor1;
-    resultado.innerHTML = valor2;
-
     let nome = inputNome.value;
     let idade = inputIdade.value;
+
+    resultado.innerHTML = nome;
+    resultado.innerHTML = idade;
 
     if (idade >= 18) {
         resultado.innerHTML = "Permitido a compra, " + nome + "." + "\n \nAproveite o show, sem moderações."; 
