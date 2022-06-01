@@ -109,7 +109,7 @@
         width: 513px !important;
         border-width: 5.5px !important;
         border-radius: 25px !important;
-        padding-bottom: 80% !important;
+        padding-bottom: 150% !important;
     }
 
     input {
@@ -131,6 +131,16 @@
     button{
         font-size: 30px !important;
         margin-top: 60px !important;
+    }
+    
+     #resultados{
+
+        margin-top: 20px !important;
+        font-size: 35px !important;
+        font-weight: bold !important;
+        text-align: justify !important;
+        letter-spacing: 1.5px !important;
+        line-height: 50px !important;
     }
 
   }
