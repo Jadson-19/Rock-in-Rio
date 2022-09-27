@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/Bandeira_do_Brasil.png" type="image/png">
+    <title>Rock in Rio - Ingressos</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logoHeader" src="./images/logo_rockinrio.png">
+        <h2 id="d"></h2>
+
+        <audio id="music"  preload="none">
+
+            <source src="musics/Baby_ogg.mp3" type="audio/ogg">
+            <source src="musics/Baby_mp3.ogg" type="audio/mpeg">
+            <source src="musics/Fear_of_the_Dark_mp3.mp3" type="audio/mpeg">
+            <source src="musics/Fear_of_the_Dark_ogg.ogg" type="audio/ogg">
+            <source src="musics/Hallowed_Be_Thy_Name_mp3.mp3" type="audio/mpeg">
+            <source src="musics/Hallowed_Be_Thy_Name_ogg.ogg" type="audio/ogg">
+            <source src="musics/Justin_Bieber_Somebody_To_Love_mp3.mp3" type="audio/mpeg">
+            <source src="musics/Justin_Bieber_Somebody_To_Love_ogg.ogg" type="audio/ogg">
+            <source src="musics/Sweet_Child_mp3.mp3" type="audio/mpeg">
+            <source src="musics/Sweet_Child_ogg.ogg" type="audio/ogg">
+            <source src="musics/You_Could_Be_Mine_mp3.mp3" type="audio/mpeg">
+            <source src="musics/You_Could_Be_Mine_ogg.ogg" type="audio/ogg">
+            <source src="musics/megadeth_holy_wars_mp3.mp3" type="audio/mpeg">
+            <source src="musics/megadeth_holy_wars_ogg.ogg" type="audio/ogg">
+            <source src="musics/megadeth_rust_in_ peace_polari_mp3.mp3" type="audio/mpeg">
+            <source src="musics/megadeth_rust_in_ peace_polari_ogg.ogg" type="audio/ogg">
+            <source src="musics/tornado_of_soul_mp3.mp3" type="audio/mpeg">
+            <source src="musics/tornado_of_soul_ogg.ogg" type="audio/ogg">
+
+        </audio>
+
+
+        <div class="controle">
+
+            <img class="botao" id="backMusic" onclick="retornar()" src="./images/botao_retornar_15_segundos.png">
+            <img class="botao" id="nextMusic" onclick="avancar()" src="./images/botao_avançar_15_segundos.png">
+            <img class="botao" id="play" onclick="play()" src="./images/botao_de_play.png">
+            <img class="botao" id="pause" onclick="pause()" src="./images/botao_de_stop.png">
+        
+        </div>
+   
+     </header>
+
+    <div class="container">
+
+        <section>
+
+            <div class="subHeader">
+
+            <h3 overflow: SCROLL; onclick = "clickH3('Faça uma excelente compra e aproveite o show!')"> <span class="span2">AVISO:</span> Para ter acesso ao evento do Rock in Rio é preciso que seja maior de idade, caso contrário deve estar acompanhado de um responsável legal. Caso a resposta seja sim, <span class="span4">clique aqui</span>.
+                <br><br>
+                <img class="proibidoMenores" src="./images/proibidos_menores.jpeg">
+            </h3>
+                
+                <section class="galery">
+
+                    <div class="fotos">
+    
+                        <img  src="./images/fotos1_carrosel.jpeg" alt="Foto 1">
+                        <img  src="./images/fotos2_carrossel.jpg" alt="Foto 2">
+                        <img  src="./images/fotos3_carrossel.jpg" alt="Foto 3">
+                        <img  src="./images/fotos4_carrossel.jpg" alt="Foto 4">
+                        <img  src="./images/fotos5_carrosel.jpg"  alt="Foto 5">
+                        <img  src="./images/fotos6_carrossel.jpg" alt="Foto 6">
+                        <img  src="./images/fotos7_carrossel.jpg" alt="Foto 7">
+                        <img  src="./images/fotos1_carrosel.jpeg" alt="Foto 1">
+                        
+                    </div>
+    
+                </section>
+
+            </div>
+            
+            <div class="principal">
+
+                <div class="produto">
+                    <img class="ingresso" src="./images/logo_rio_two.png">
+                     <h1>INGRESSO <span class="span1">PREMIUM</span></h1>
+                </div>
+
+                <div class="anuncio">
+                    <h5>COMPRE AQUI SEU INGRESSO PREMIUM PARA UM DOS MAIORES SHOWS DO ANO, AQUI VOCÊ TERÁ DIREITO A ÁREA
+                        VIP, BACKSTAGE, OPEN BAR E OPEN FOOD. NÃO FIQUE DE FORA, GARANTE JÁ O SEU. <br>
+                        <img class="vendasCard" src="./images/rock-in-rio-ingresso.jpg"> <br>
+
+                        <span class="span0">Valor: R$: 500,00</span></h5>
+                </div>
+
+            </div>
+
+
+            <div class="venda">
+                <h4><span class="span3">BILHETERIA</span></h4>
+
+                
+                <div id="bilhete" >
+
+                    <form id="formulario">
+
+                    <input  class="nome" name="nome" type="text" placeholder="Nome" required> <br>
+                    <input  class="cpf" name="cpf" type="number" maxlength="11" placeholder="CPF" required> <br>
+                    <input class="dataNascimento" name="dataNascimento" type="date" max="2003-01-01" required> <br>
+                    <input class="email" name="email" type="email" placeholder="Digite seu e-mail" required> <br>
+                    
+                    <input class="senha" id="passRegistro" name="senha" type="password" maxlength="10" placeholder="Crie sua senha" required> <br>
+                    <img id="olhoRegistro" class="olhoRegistro" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" onclick="mostrarSenha()">
+
+                    <input class="confirmarSenha" id="passconfirmarRegistro" name="confirmarSenha" type="password" maxlength="10" placeholder="Confirmar senha" required> 
+                    <img id="olhoconfirmarRegistro" class="olhoconfirmarRegistro" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" onclick="mostrarconfirmarSenha()">  <br>
+
+                    <input class="button" type="submit" name="comprarIngresso" value="COMPRAR INGRESSO" onclick="calcularCompra()"> <br>
+
+                    </form>
+
+                    <div id="resultadosCompra"></div> 
+
+                </div>
+        
+            </div>
+
+            <div id="resgatarIngresso">
+
+                <h4><span class="span6">RESGATE SEU INGRESSO</span></h4>
+
+                <form id="resgateCompra">
+
+                <input class="loginEmail" name="loginEmail" type="email" placeholder="Digite seu e-mail" required> <br>
+                
+                <input class="loginSenha" id="passResgate" name="loginSenha" type="password" maxlength="10" placeholder="Digite sua senha" required> <br>
+                <img id="olhoResgate" class="olhoResgate" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" onclick="mostrarPassword()"> <br>
+
+                <input class="buttonResgate" name="login" type="reset" value="RESGATAR" onclick="calcularResgate()"> <br>
+                
+                </form>
+                
+                <div id="resultadosResgate"></div>
+                <div id="resultadosdataBase"></div>
+
+                <img class="resgateCard" src="./images/rock-in-rio_ingresso_resgate.jpg">
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <footer>
+
+        <p><span class="span">Rock In Rio - Ingressos.</span></p>
+        <p><span class="span5">Para maiores informações - clique no link abaixo para visualizar minhas redes sociais:</span></p>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/JadsonSouzaSCR"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/jadson.souzza/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jadson-souza-a6a130224/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    
+        <p class="fim">© 2022 Copyright by Jadson Souza.</p>
+    
+    </footer>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
